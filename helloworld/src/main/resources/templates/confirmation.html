@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .confirmation-box {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 400px;
+        }
+
+        h2 {
+            color: #16a34a;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333333;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4f46e5;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        a:hover {
+            background-color: #4338ca;
+        }
+    </style>
+</head>
+<body>
+
+<div class="confirmation-box">
+    <h2>✅ Product Added Successfully!</h2>
+    <p><strong>Name:</strong> <span th:text="${product.name}"></span></p>
+    <a href="/product-list">Go to Product List</a>
+</div>
+
+</body>
+</html>

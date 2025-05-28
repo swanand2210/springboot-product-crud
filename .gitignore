@@ -1,0 +1,9 @@
+# Ignore build output and IDE files
+/target
+*.iml
+.idea/
+*.class
+*.log
+*.jar
+*.war
+.env
