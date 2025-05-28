@@ -23,7 +23,7 @@ A mini CRUD application built with Spring Boot, Thymeleaf, JPA, and H2.
 
 ### H2 Database
 
-![H2 Console](screenshots/H2console.png)
+![H2 Console]([screenshots/H2console.png](https://github.com/swanand2210/springboot-product-crud/blob/main/helloworld/screenshots/H2%20console.png))
 
 ## 📦 Tech Stack
 
