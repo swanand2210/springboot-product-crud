@@ -10,16 +10,16 @@ A mini CRUD application built with Spring Boot, Thymeleaf, JPA, and H2.
 
 ## 🖼️ Screenshots
 ### add product
-![Add Product](screenshots/add-product.png)
+![Add Product](helloworld/screenshots/add-product.png)
 
 ### confirmation
-![Confirmation](screenshots/confirmation.png)
+![Confirmation](helloworld/screenshots/confirmation.png)
 
 ### Product List View
-![Product List](screenshots/product-list.png)
+![Product List](helloworld/screenshots/product-list.png)
 
 ### H2 Database
-![H2 Console](screenshots/H2%20console.png)
+![H2 Console](helloworld/screenshots/H2%20console.png)
 
 ## 📦 Tech Stack
 
